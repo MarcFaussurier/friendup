@@ -39,7 +39,7 @@ sudo apt install python3 python3-dev
 sudo apt install libmysqlclient-dev
 sudo apt install mysql-client
 sudo apt install python-pip
-sudo apt install ffmpeg
+sudo apt install libmagic-dev
 cd friendup/
 ./install.sh
 ```
