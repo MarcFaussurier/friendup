@@ -40,6 +40,7 @@ sudo apt install libmysqlclient-dev
 sudo apt install mysql-client
 sudo apt install python-pip
 sudo apt install libmagic-dev
+sudo apt install libxml2-dev
 cd friendup/
 ./install.sh
 ```
