@@ -1,0 +1,4 @@
+# Friend Core compilation path
+# If empty compilation will default to
+# /home/marcfsr/friendup/build
+FRIEND_PATH="/home/marcfsr/friendup/build"

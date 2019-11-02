@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 #
 # Friend Core, Friend Chat and Friend Network installation script
@@ -464,7 +464,7 @@ while true; do
     fi
     # Checks mysql root password
     export MYSQL_PWD=$mysqlRootPass
-    mysql -u root -e ";"
+    mysql -uroot -p$mysqlRootPass -h$dbhost -e ";"
     if [ $? -eq "0" ]; then
         break;
     fi
@@ -515,7 +515,7 @@ echo "FRIEND_PATH=\"$FRIEND_BUILD\"" | tee -a "$FRIEND_FOLDER/Config" >> install
 echo $FRIEND_PATH
 
 # Defines mysql access
-mysqlAdminConnect="--host=$dbhost --port=$dbport --user=root"
+mysqlAdminConnect="--host=$dbhost --port=$dbport --user=uroot -p$mysqlRootPass"
 mysqlconnect="--host=$dbhost --port=$dbport --user=$dbuser"
 mysqlconnectdb="$mysqlconnect --database=$dbname"
 

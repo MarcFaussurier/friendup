@@ -1,0 +1,62 @@
+;
+; Friend Core configuration file
+; ------------------------------
+; Please respect both spaces and breaks between lines if you change this file manually
+;
+[DatabaseUser]
+login = "friendup"
+password = "friendup1"
+host = "192.168.1.43"
+dbname = "friendup"
+port = 3306
+ 
+[FriendCore]
+fchost = "179.151.219.201"
+port = 6502
+fcupload = storage/
+ 
+[Core]
+port = 6502
+SSLEnable = 1
+ 
+[FriendNetwork]
+enabled = 0
+ 
+[FriendChat]
+enabled = 0
+ 
+# Friend Core compilation path
+# If empty compilation will default to
+# /home/marcfsr/friendup/build
+FRIEND_PATH="/home/marcfsr/friendup/build"
+;
+; Friend Core configuration file
+; ------------------------------
+; Please respect both spaces and breaks between lines if you change this file manually
+;
+[DatabaseUser]
+login = "friendup"
+password = "friendup1"
+host = "192.168.1.43"
+dbname = "friendup"
+port = 3306
+ 
+[FriendCore]
+fchost = "179.151.219.201"
+port = 6502
+fcupload = storage/
+ 
+[Core]
+port = 6502
+SSLEnable = 1
+ 
+[FriendNetwork]
+enabled = 0
+ 
+[FriendChat]
+enabled = 0
+ 
+# Friend Core compilation path
+# If empty compilation will default to
+# /home/marcfsr/friendup/build
+FRIEND_PATH="/home/marcfsr/friendup/build"
