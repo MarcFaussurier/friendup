@@ -34,7 +34,7 @@ The below script has been tested on Ubuntu 16. You might need to install MySQL o
 
 ```
 git clone https://github.com/FriendSoftwareLabs/friendup
-apt install make cmake dialog libssl-dev valgrind libwebsockets-dev
+apt install make cmake dialog libssl-dev valgrind libwebsockets-dev libssh-dev
 cd friendup/
 ./install.sh
 ```
